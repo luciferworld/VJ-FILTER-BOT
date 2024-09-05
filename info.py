@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'TechVJBot')
 API_ID = int(environ.get('API_ID', '25184668'))
 API_HASH = environ.get('API_HASH', '9de2fcd18b25deed06adf855fcd181ed')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6761690507:AAEwOILny1NEOZUVye4oBhFzsdHLTwRIjZI")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6761690507:AAEBgAOnwzXA98RV8yKwz1CU6vIoqhlwy5Y")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -71,14 +71,14 @@ CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "") # Necessary If clone 
 PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+WZy2jLi0xGBlMzVk')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+FblHD2iE030xYmQ8')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/digitalhub04')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Open_Linkl')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+UVWrKb8S-m5kZGJk') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+FblHD2iE030xYmQ8') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
-PM_SEARCH = bool(environ.get('PM_SEARCH', False))
+PM_SEARCH = bool(environ.get('PM_SEARCH', True))
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
